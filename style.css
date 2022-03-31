@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 1.2rem;
+    background-color: #ccd3c9;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+h1{
+    text-decoration: underline ;
+    margin-top: 30px;
+}
+
+.stripe{
+    margin: 30px 0px ;
+    
+}
+
+#message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+.mode{
+    border: none;
+	width: 60px;
+	height: 30px ;
+	padding: 10px ;
+	cursor: pointer;
+    background-color: white;
+
+}
+
+.card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.btn{
+    margin: 30px 20px;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px ;
+	padding: 10px ;
+	cursor: pointer;
+    background-color: orchid;
+    border: 1px solid lightslategray;
+} 
+
+.btn:hover {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.301);
+    border-color: lightslategrey;
+}
+
+
+.reset{
+    margin: 30px;
+    border: 1px solid lightslategray;
+    border-radius: 2px;
+	width: 160px;
+	height: 45px ;
+	padding: 10px ;
+	cursor: pointer;
+    color: black;
+    font-size: 65%;
+    
+}
+
+.reset:hover {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.32);
+    border-color: lightslategrey;
+}
